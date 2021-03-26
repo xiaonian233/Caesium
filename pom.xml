@@ -6,7 +6,7 @@
 
     <groupId>dev.sim0n</groupId>
     <artifactId>caesium</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.9</version>
 
     <build>
         <plugins>
@@ -34,6 +34,7 @@
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.2.2</version>
                 <configuration>
+                    <createDependencyReducedPom>false</createDependencyReducedPom>
                 </configuration>
                 <executions>
                     <execution>
